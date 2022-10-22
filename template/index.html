@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+            }
+            .text1 {
+                color: rgb(158, 28, 28);
+                align-items: center
+            } 
+            .mytop{
+                background-color: blueviolet;
+                color: blueviolet;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2 class="mytop"><strong>$</strong>afe_forever</h>
+        <p class="text1">be safe by encrypting your data!</h3>
+            <hr><hr>
+        <br><br><br><br>
+    <h2> <strong> Encryption :</h2>
+        <hr>
+    </div> <h4> Enter your important message :</h4>
+     <textarea name="textarea" id="message" cols="50" rows="6" placeholder="Your important text to be encrypted!"></textarea>
+     <button onclick = "encpme()" class ="button1" >encrypt</button>
+     <p id="out"><strong></strong></p>
+
+     <div>
+        <script>
+            function encpme(){
+                let text = document.getElementById("message").value;
+                console.log(text);
+                document.getElementById("message").value = '';
+                document.getElementById("out").innerHTML = text ;
+            }
+        </script>
+    </body>
+        
+</html>

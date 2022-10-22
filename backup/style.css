@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+
+body {
+  margin-top: 100px;
+  /*
+  font-family: 'Roboto Mono', sans-serif;
+  */
+    font-size: 15pt;
+    background-color: #161c17;
+    display: flex;
+    flex: center;
+    align-items: center;
+    flex-direction: column;
+      font-family: myFirstFont;
+  src: url(destructobeambb_bold.ttf);
+}
+.myname {
+  color: green;
+  align-items: center;
+  margin-left: -23px;
+  font-size: 40px;
+
+
+}
+.mother{
+  max-width: 600px;
+  margin: auto;
+  flex-direction: column;
+}
+*{
+  
+}
+.blinked{
+  font-weight: 1000;
+  animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+  from,
+  to{
+    color: transparent;
+  }
+  50%{
+    color:green;
+  }
+}
+.tagg{
+  text-decoration: none;
+  color:white;
+}
+.tabs{
+  color: darkgreen;
+  list-style-type: '> ';
+  margin-left: -45px;
+  
+  
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hidden{
+  display:none;
+}
