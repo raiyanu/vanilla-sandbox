@@ -1,11 +1,11 @@
 *{
 	margin: 0;
 	padding: 0;
-	
+
 }
 body{
 	height: 100vh;
-	background-color: #1b124a;
+	background-color: #272B33;
 }
 .center,.front-face,
 .contents,.back-face{
@@ -41,13 +41,13 @@ body{
 	transform: translateY(-50%) translateZ(60px) scale(.94);
 
 }
-.front p{
+.front h2{
 	color: white;
-	font-size: 23px;
+	font-size: 27px;
 
 
 }
-.front p: after{
+.front h2: after{
 	content: '';
 	display: block;
 	left: 0;
@@ -60,7 +60,7 @@ body{
 }
 .back-face{
 	transform: rotateY(180deg);
-	background: #221440;
+	background: #294660;
 }
 .back{
 	color: white;
