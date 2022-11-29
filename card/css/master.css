@@ -1,0 +1,72 @@
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+.card {
+	/* margin-left: 50px; */
+	position: sticky;
+	/* background-color: #1D212B; */
+	background-image: linear-gradient(to bottom, #1c264d , #080C15);
+	background-attachment: fixed;
+	background: cover;
+	height: 250px;
+	width: 400px;
+	justify-content: center;
+  box-shadow: 3px 3px 3px 2px lightgrey;
+}
+
+
+.c1{
+  height: 250px;
+  width: 180px;
+  /* border-radius: 125px; */
+  background-color: #161545;
+  position: absolute;
+  margin-left: 220px;
+  border-top-left-radius: 125px;
+  border-bottom-left-radius:125px;
+  box-shadow: 0px 0px 0px 1px #080C15;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.name{
+  margin-left: 11px;
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+}
+.quali{
+  position: absolute;
+  color: white;
+  margin-top: -18px;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 11px;
+}
+.qr{
+  height: 50px;
+  width: 50px;
+  margin-top: 51px;
+  margin-left: 20px;
+  /* image-resolution: from-image; */
+}
+.line{
+  position: absolute;
+  margin-top: 10px;
+  height: 1px;
+  width: 113px;
+  margin-left: 11px;
+  background-color: white;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius:2px;
+}
+.info{
+  color: white;
+  margin-left: 5px;
+  font-size: 9px;
+}
