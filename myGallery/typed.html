@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/second.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <span class="text first-text">You can get</span>
+      <span class="text second-text">picture</span>
+    </div>
+    <script>
+      const text = document.querySelector(".second-text");
+      const textLoad = ()=> {
+        setTimeout(()=> {
+          text.textContent = "picture";
+        }, 0);
+        setTimeout(()=> {
+          text.textContent = "Wallpaper";
+        }, 4000);
+        setTimeout(()=> {
+          text.textContent = "Scenario";
+        }, 8000);
+      }
+      textLoad();
+      setInterval(textLoad, 12000);
+    </script>
+  </body>
+</html>

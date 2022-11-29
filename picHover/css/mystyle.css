@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 30px;
+  height: 100vh;
+  background: linear-gradient(147deg,#f6b323 0%, #f23b26 74%);
+  }
+nav{
+  /* flex-direction: column; */
+  margin-top: 20vh;
+  /* padding:  clamp(1rem,8vw,10rem) */
+}
+nav > h3 > span{
+ transition: 1s;
+}
+nav > h3:hover > img{
+  visibility: visible;
+
+}
+nav > h3 > img{
+visibility: hidden;
+
+  position: fixed;
+}
+nav >  h3 > img:hover{
+
+}

@@ -1,0 +1,23 @@
+body{
+  background-image: url("18.png");
+  margin: 30px;
+}
+.myb{
+
+}
+.Qube{
+  background-image: url("25.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.5s;
+
+  background-color: #1D202B;
+  height: 120px;
+}
+.Qube:hover{
+  transition-duration: 0.80s;
+  opacity: 1;
+  border-radius: 30px;
+  background-color: #272B33;
+  transform: skewX(5deg);
+}
