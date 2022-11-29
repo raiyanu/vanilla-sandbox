@@ -1,0 +1,90 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 90%;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  background-color: black;
+}
+.boxy{
+  height: 300px;
+  width: 400px;
+  background-color: blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sc .sm{
+  font-size: 50px;
+  color: darkgreen;
+}
+.dont{
+  color: red;
+}
+.sc{
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  margin-bottom: 380px;
+  font-weight: 100;
+  text-shadow: 2px 2px white;
+}
+.face{
+  border-radius: 125px;
+  height: 250px;
+  width: 250px;
+  background: orange;
+}
+.eye1 , .eye2{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: black;
+  transition: .7s ease;
+}
+.eye1:hover , .eye2:hover{
+  transform: scale(.8);
+}
+.eye1{
+
+  float: left;
+}
+.eye2{
+
+  float: right;
+}
+.upperf{
+  background-color: orange;
+  height: 50px;
+  width: 120px;
+  margin-top: 60px;
+  margin-left: 65px;
+}
+.lowerf{
+
+  margin-top: 30px;
+  margin-left: 65px;
+}
+.mouth{
+  background-color: black;
+  height: 35px;
+  width: 120px;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  transition: .7s;
+}
+.mouth:hover{
+  transform: scale(1.4);
+}
+.cur{
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  height: 20px;
+  width: 120px;
+  background-color: orange;
+  border: none;
+}

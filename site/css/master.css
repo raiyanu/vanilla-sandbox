@@ -1,0 +1,26 @@
+.mb{
+  background-color: gray;
+  width: 100vh;
+  height: 100vh;
+  margin: 0 auto;
+}
+.cool{
+  transform: rotate3d(140deg);
+}
+.m > a{
+  transition:0.8s;
+  color: blue;
+  padding-left: 1.8vh;
+  font-size: 60px;
+  float: left;
+}
+.m > a:hover{
+  color: green;
+  font-size: 70px;
+}
+.m > a{
+  text-decoration: none;
+}
+.m > a:hover{
+  transition: 1s;
+}

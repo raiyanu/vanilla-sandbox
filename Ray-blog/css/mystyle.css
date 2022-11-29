@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+
+  height: 100vh;
+  background: linear-gradient(147deg,#112f43 0%, #000000 74%);
+  }
+.navbar{
+  background-color: #1c4e6f;
+}
