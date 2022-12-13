@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.container{
+  /* background-color: #CCFBFF; */
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type:y mandatory;
+}
+.page{
+  scroll-snap-align:end;
+  transition: 1s all;
+  height: 100vh;
+  width: 100%;
+  /* margin-top: 20px; */
+  background-color: #EF96C5;
+}
+.p1{
+  background: url('../img/i1.jpg');
+}
+.p2{
+  background: url('../img/i2.jpg');
+}
+.p3{
+  background: url('../img/i3.jpg');
+}
+.p1 ,
+.p2 ,
+.p3{
+  color: white;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* main page */
+
+.tag{
+  margin: 0;
+  padding: 0;
+  transform:rotate(90deg);
+  float: right;
+  background-color: red;
+  border: 1px solid white;
+}
+
+.profile{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  padding: 5px;
+}
+.profile h1{
+  font-size: 30px;
+  font-family: monospace;
+  letter-spacing: 5px;
+  color: #c8c5c5;
+}
+.profile span{
+
+  font-family:monospace;
+  color: white;
+  font-size: 50px;
+}
+.profile h4{
+  margin-left: 5px;
+  font-size: 15px;
+}
+.foot{
+  height: 35%;
+  width: 100%;
+}
+.ended{
+  height: 5%;
+  float: right;
+  width: 100%;
+}
+.ended .otaku p{
+  float: right;
+  border-radius: 50px;
+  background: linear-gradient(135deg,rgba(21, 82, 111, .1),rgba(148, 196, 192, .1));
+  width:auto;
+  padding: 3px 5px;
+  height: auto;
+}
+.detail{
+  height: auto;
+  width: 60%;
+}
+.content{
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 5px;
+}
+.p2{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listc{
+  width: 80%;
+  background: rgba(0,0,0,.4);
+  backdrop-filter:blur(5px);
+  height: 80%;
+  border-radius: 10px;
+  padding: 20px;
+  overflow-y: scroll;
+}
+.tabs{
+  margin-left: 10px;
+}
+
+.tabs li{
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.tabs li:hover{
+  background: rgba(255, 255, 255, 0.3);
+}
+.tabs li a{
+  margin-left: 10px;
+  font-size: 20px;
+  width: 200px;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+}
+/* width */
+::-webkit-scrollbar {
+ width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ background: rgba(0,0,0,.2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+ background: rgba(0,0,0,1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ background: black;
+}
