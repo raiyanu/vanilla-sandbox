@@ -15,6 +15,15 @@
     width: 50%;
   }
   .main{
-    background-image: url('../img/boy1.jpg');
-  }
+        background: url('../img/imgs/boy1.jpg');
+        background-position: center;
+      background-size: cover;
+ }
+ .card-container{
+       flex-direction: row;
+ }
+ .education-card ,
+ .experience-card{
+       margin: 40px 50px;
+ }
 }
