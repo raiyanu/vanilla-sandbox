@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kakashi | home </title>
+	<link rel="stylesheet" href="master.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"> </script>
+</head>
+<body>
+	<section>
+		<div class="button">
+			Darkmode :
+		<div class="center">
+			<input type="checkbox" id="white">
+			<!-- <input type="checkbox" id="black"> -->
+		</div>
+
+			</div>
+		<div class="name">
+			<span class="logo"><img id="sid" src="shuriken.png"></span><div class="kakashi">Kakashi Hatake</div>
+		</div>
+		<div class="sp">
+			<h1 class="topic"> Synopsis:</h1>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(はたけカカシ, Hatake Kakashi) is a shinobi of Konohagakure's Hatake clan. Famed as Kakashi of the Sharingan (写輪眼のカカシ, Sharingan no Kakashi), he is one of Konoha's most talented ninja, regularly looked to for advice and leadership despite his personal dislike of responsibility.</p>
+		</div>
+		<div class="datas">
+			<div class="entry">
+				<ul>
+					<li>
+						<div class="lmain">
+							<div class="space">Current status<span>:</span></div>
+							<div>Alone sage</div>
+						</div>
+					</li>
+					<li>
+						<div class="lmain">
+							<div>Profile level <span>:</span></div>
+							<div>national clasified</div>
+						</div> 
+					</li>
+					<li>
+						<div class="lmain">
+							<div>Top 3 abilities<span>:</span></div>
+							<div><ol class="ability">
+								<li>copy ninja</li>
+								<li>quick sharingan</li>
+								<li>Teacher</li>
+							</ol></div>
+						</div>
+					</li>
+				</ul>
+				
+			</div>
+			
+		</div>
+		<marquee behavior="scroll" direction="right"><div class="eyes"><img src="kunai.png" id="kid"></div></marquee>
+	</section>
+	<script>
+		$(document).ready(function(){
+			$(document.getElementById("white")).click(function(){
+				$('section').toggleClass('active');
+				
+				var datas = document.querySelector('.datas'); 
+				$(datas).toggleClass('bline');
+				document.getElementById("kid").src="kunaib.png";
+				document.getElementById("sid").src="shuriken2.png";
+				var sid = document.getElementById('sid');
+			})
+			$(document.getElementById("dark")).click(function(){
+				$(this).toggleClass('active').siblings().removeClass('active');
+			})
+		})
+	</script>
+</body>
+</html>

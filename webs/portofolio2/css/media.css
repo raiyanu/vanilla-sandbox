@@ -1,0 +1,17 @@
+@media screen and (min-width: 900.98px){
+  .wrapper{
+    margin-left: 10px;
+    flex-direction: row;
+    padding: 60px;
+  }
+  .progress .wrapper{
+    flex-direction: column;
+    padding: 0px;
+  }
+  .progress{
+    width: -moz-available;
+  }
+  .mycontent{
+    width: 50%;
+  }
+}

@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background: linear-gradient(135deg , #5c5fff 10% , #0732A8 90%);
+}
+body::before,
+body::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .4;
+}
+body::before{
+  clip-path: circle(30% at left 20%);
+  background: linear-gradient(135deg , #0732A8 10% , #5c5fff 90%);
+}
+body::after{
+  clip-path: circle(35% at right 80%);
+  background: linear-gradient(135deg , #0732A8 10% , #5c5fff 90%);
+}
+header{
+  height: 90vh;
+  width: 85%;
+  padding: 15px;
+  background: rgba(225,225,225 ,0.1);
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0 ,0.15);
+  border-top: 1px solid rgba(225,225,225 ,0.1);
+  border-left: 1px solid rgba(225,225,225 ,0.1);
+  backdrop-filter: blur(5px);
+}
+.logo h1{
+  font-size: 40px;
+
+}
+.logo h1 a{
+    text-decoration: none;
+    color: black;
+}
+.logo span a{
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+}
+.logo span{
+  padding-top: 5px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .navbar{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .menu ul{
+  display: flex;
+
+
+}
+.navbar .menu ul li{
+  list-style: none;
+
+  margin: 0 6px;
+}
+.navbar .menu ul li a{
+  text-decoration: none;
+  font-size: 17px;
+  color:black;
+  color:#000;
+  font-weight: 500;
+   transition: all 0.3s ease;
+}
+.navbar .menu ul li a:hover{
+  color: #f2f2f2;
+}
+header .content{
+  margin: 150px 0 0 50px;
+  width: 40%;
+}
+.buttons input{
+  cursor: pointer;
+  margin: 0 8px;
+  outline: none;
+  border-radius: 15px;
+  font-size: 17px;
+  border:none;
+  padding: 6px 12px;
+   background: linear-gradient(135deg , #5c5fff 10% , #0732A8 90%);
+   transition: all .3s ease;
+}
+.buttons input:hover{
+  transform: scale(.93);
+}
+@media (max-width:850px) {
+  header .navbar{
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar .menu{
+    margin: 10px 0 20px 0;
+  }
+  header .content{
+    width: 70%;
+  }
+}
+@media (max-width:410px) {
+  header{
+    height: 100vh;
+    width: 100%;
+    border-radius: 0;
+  }
+}

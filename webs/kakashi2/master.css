@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	color: white;
+}
+section{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+}
+.active{
+	background-color: white;
+	color: black;
+}
+.modec{
+	display: flex;
+	width: 100%;
+	height: auto;
+	flex-direction: row-reverse;
+}
+.button{
+	display: flex;
+	height: 30px;
+	width: fit-content;
+	margin: 10px;
+	padding: 10px;
+}
+input{
+	height: 20px;
+	width: 20px;
+	margin: 4px;
+	padding: 5px;
+}
+.name{
+	height:auto;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+}
+.kakashi{
+	font-size: 35px;
+}
+.liny{
+	height: 1px;
+	width: 200px;
+	margin-top: 3px;
+}
+.lliny{
+	height: 2px;
+	margin-top: 3px;
+	width: 240px;
+}
+.sp{
+	padding: 20px;
+	width: 100vw;
+}
+p{
+	padding: 5px;
+	flex-wrap: wrap;
+}
+.datas{
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	width: 95vw;
+	height: auto;
+	align-items: center;
+	border: 2px solid white;
+	margin: 10px;
+	border-radius: 10px;
+}
+.bline{
+	border: 2px solid black;
+}
+.entry ul {
+	height: auto;
+	width: fit-content;
+	padding: 10px;
+}
+.entry ul li{
+	margin: 5px;
+	width: fit-content;
+	padding: 2px;
+	list-style: none;
+}
+.lmain{
+	display: flex;
+}
+.lmain span{
+	float: right;
+}
+.lmain div{
+	width: 36vw;
+	margin-left: 10px;
+}
+
+.eyes{
+	height: initial;
+	flex-grow: 100;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.eyes img{
+	height: 250px;
+	width: 300px;
+}
+.logo img {
+	height: 50px;
+	width: 50px;
+	border-radius: 3px;
+	transition:all 10s;
+	-webkit-animation: rotating 5s linear infinite;
+	-moz-animation: rotating 5s linear infinite;
+	-ms-animation: rotating 5s linear infinite;
+	-o-animation: rotating 5s linear infinite;
+	animation: rotating 5s linear infinite;
+}
+.logo img:hover{
+	transform: rotate(360deg);
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+	from {
+	  -webkit-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	to {
+	  -webkit-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  @keyframes rotating {
+	from {
+	  -ms-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -webkit-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	to {
+	  -ms-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -webkit-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
