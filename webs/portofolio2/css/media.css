@@ -14,4 +14,7 @@
   .mycontent{
     width: 50%;
   }
+  .main{
+    background-image: url('../img/boy1.jpg');
+  }
 }
