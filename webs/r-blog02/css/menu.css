@@ -1,0 +1,224 @@
+.menubar{
+      transition: transform 2s ease-in-out , backdrop-filter 0s ease-in-out;
+      transform: translateX(-100%);
+      position: absolute;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      z-index: 999;
+      backdrop-filter:blur(0px);
+}
+.menucloser img{
+      height: 2rem;
+      width: 2rem;
+      margin-left: 1rem;
+}
+.menucloser{
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      width: inherit;
+}
+.menuactive{
+      transform: translateX(0);
+      backdrop-filter:blur(3px);
+      transition: transform 1s ease-in-out , backdrop-filter 3s ease-in-out;
+}
+.menucontainer{
+      margin-right: 0;
+      border-top-right-radius: .7rem;
+            border-bottom-right-radius: .7rem;
+      /* overflow: scroll; */
+      display: flex;
+      flex-direction: column;
+      height: inherit;
+      width: 70%;
+      background:  rgba(162, 102, 179, 0.47);
+      border-right: .12rem solid white;
+}
+.myprofile{
+      flex: 0 1 fit-content;
+      padding: .5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.line{
+      margin: 5px 1rem;
+      width: 200px;
+      border-radius: 50$;
+      height: .2rem;
+      background-color: white;
+}
+.profile{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      grid-gap: 10px;
+}
+.profile img{
+      height: 5rem;
+      width: 5em;
+      border-radius:;
+      border-radius: 50%;
+}
+.profile h2{
+      color: white;
+      font-size: 1.8rem;
+      font-family: monospace;
+      font-weight: 700;
+}
+.frame{
+      transition: background 10s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      height: 10rem;
+      width: 10rem;
+      background: url('../img/frame.png');
+      background-position: center;
+      background-size: cover;
+}
+.frame:hover{
+      /* transform: rotate(300deg); */
+}
+.musicplayer{
+      padding: .5rem 5px;
+      display: flex;
+      flex-direction: column;
+      /* flex: 1 1 fit-content; */
+      background:  rgba(162, 102, 179, 0.4);
+      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      /* height: 5.5rem; */
+      height: auto;
+
+      width: 100%;
+}
+.songiconC{
+
+      display: flex;
+      grid-gap: 1rem;
+}
+.musicplayertop{
+      width: 100%;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+}
+.songicon{
+      border-radius: 50%;
+      background:url('../img/boy4.png');
+      background-size: cover;
+      background-position: center;
+      height: 4rem;
+      width: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.disk{
+      border-radius: 50%;
+      height: 1rem;
+      width: 1rem;
+      background:rgba(0,0,0,.6);
+}
+.songdetail{
+      height: auto;
+      width: auto;
+      padding: .2rem;
+}
+.songdetail h3 ,
+.songdetail span{
+      color: white;
+      font-family: sans-serif;
+}
+.songdetail h3{
+      font-size: 1.2rem;
+}
+.songdetail span{
+      font-size: .8rem;
+}
+
+.musicplayerbottom{
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      grid-gap: .5rem;
+}
+.musicplayerbottom img{
+      margin-left: 1rem.5;
+      height: 1rem;
+      transform: rotate(180deg);
+}
+.musicplayerbottom h2{
+      font-family:monospace;
+      color: white;
+}
+.supproter{
+      flex: 3 1 auto;
+}
+.menulistm{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 1rem;
+      height: auto;
+}
+.active{
+      background:rgba(93,34,110, .2);
+}
+.supproter ul li,
+.mainer ul li{
+      border-radius: 1rem;
+      margin: .1rem 0rem;
+      padding: .5rem;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      transition: background .4s ease-in-out;
+}
+.supproter ul li:hover,
+.mainer ul li:hover{
+      background:rgba(85,31,100,.7);
+      background:rgba(255,255,255,.3);
+
+}
+.supproter ul li a,
+.mainer ul li a{
+      width: 100%;
+      height: 100%;
+      letter-spacing: .09rem;
+      text-decoration: none;
+      color: white;
+      font-size: 1rem;
+      font-weight: 400;
+      font-family: sans-serif;
+}
+.supproter h5{
+      margin-left: -.7rem;
+      color: white;
+      font-family: sans-serif;
+      font-weight: lighter;
+}
+.icony2,
+.icony1{
+      padding: .2rem;
+      border-radius: 50%;
+      border: .1rem solid white;
+}
+.icony1{
+      margin-right: .5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 1.3rem;
+      width: 1.3rem;
+}
+.icony2{
+      height: .3rem;
+      width: .3rem;
+}
