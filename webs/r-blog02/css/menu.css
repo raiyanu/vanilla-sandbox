@@ -18,7 +18,7 @@
       display: flex;
       align-items: center;
       height: 100vh;
-      width: inherit;
+      width: 30%;
 }
 .menuactive{
       transform: translateX(0);
@@ -50,7 +50,7 @@ overflow-y: scroll;
       width: 200px;
       border-radius: 50$;
       height: .2rem;
-      background-color: white;
+      background: white;
 }
 .profile{
       position: relative;
