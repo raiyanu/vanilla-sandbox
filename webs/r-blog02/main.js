@@ -10,7 +10,7 @@ function hide_menu() {
  var mybutton = document.getElementById("mybutton");
 var audio = document.getElementById("mysong");
  var my = document.getElementById("start");
- audio. play();
+ audio.play();
 var count =1;
 var songicon = document.getElementById("songicon");
 var icon = document.getElementById("songicon");
