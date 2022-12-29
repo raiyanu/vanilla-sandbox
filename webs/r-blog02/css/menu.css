@@ -36,6 +36,7 @@
       width: 70%;
       background:  rgba(162, 102, 179, 0.47);
       border-right: .12rem solid white;
+overflow-y: scroll;
 }
 .myprofile{
       flex: 0 1 fit-content;
