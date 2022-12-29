@@ -36,7 +36,7 @@
       width: 70%;
       background:  rgba(162, 102, 179, 0.47);
       border-right: .12rem solid white;
-overflow-y: scroll;
+      overflow-y: scroll;
 }
 .myprofile{
       flex: 0 1 fit-content;
@@ -50,7 +50,7 @@ overflow-y: scroll;
       width: 200px;
       border-radius: 50$;
       height: .2rem;
-      background: white;
+      background-color: white;
 }
 .profile{
       position: relative;
@@ -109,6 +109,18 @@ overflow-y: scroll;
       display:flex;
       flex-direction: row;
       flex-wrap: nowrap;
+}
+.activated{
+      animation: rota 10s infinite;
+}
+@keyframes rota {
+      0%{
+            transform: rotate(1deg);
+      }
+      100%{
+            transform: rotate(361deg);
+      }
+
 }
 .songicon{
       border-radius: 50%;
