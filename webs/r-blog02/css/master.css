@@ -2,20 +2,22 @@
       padding: 0;
       margin: 0;
       box-sizing: border-box;
+      scroll-behavior: smooth;
 }
 body{
       background-color: black;
 }
 .maincontainer{
-      background-color: black;
+      background: url('../img/img2.035.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+
 }
 .page1{
       display: flex;
       flex-direction: column;
-      background: url('../img/img2.035.jpg');
       height: 100vh;
       width: 100vw;
-      background-size: cover;
       background-position: 20% 20%;
 }
 .navbar{
