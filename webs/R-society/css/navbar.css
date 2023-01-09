@@ -1,0 +1,41 @@
+.navbar{
+    height: 5rem;
+    width: 100%;
+    background: linear-gradient(45deg,rgb(82, 100, 255), rgb(69, 8, 184) );
+    border-top-right-radius: 1.5rem;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem .5rem;
+}
+    .menubtn{
+        border: none;
+        background: rgba(0, 0, 0, 0);
+    }
+        .menubtn svg{
+            background: rgba(0, 0, 0, 0);
+            height: 1.8rem;
+            width: 1.8rem;
+        }
+
+        .logoname{
+            font-family: 'poppins' , 'Trebuchet MS',
+                'Lucida Sans Unicode',
+                 'Lucida Grande', 
+                 'Lucida Sans', Arial,
+                  sans-serif;
+            color: #FFF;
+        }
+        .logoimg{
+            border-radius:50%;
+            height: 2.3rem;
+            margin-right: .6rem;
+            width: 2.3rem;
+            background: linear-gradient(45deg,pink,blue);
+        }
+    .actiontoggles{
+        height: 2rem;
+        width: 2rem;
+        margin-left: 1rem;
+    }

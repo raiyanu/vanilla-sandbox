@@ -1,0 +1,165 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    height: 100%;
+    width: 35%;
+    border: 0rem solid rgb(255, 255, 255);
+    background: linear-gradient(45deg,rgb(58, 78, 255), rgb(86, 0, 247) );
+}
+.profile{
+    height: auto;
+    width: 100%;
+    padding: .5rem ;
+    flex-direction: column;
+}   
+    .designer{
+        font-size: .6rem;
+        padding-left: 1rem;
+        font-family: inter;
+        width: 100%;
+        color: rgb(204, 204, 204);
+        font-family: monospace;
+        font-weight: 500;
+    }
+    .imgc{
+        padding: .5rem;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    .imgc img{
+        height: 7.5rem;
+        width: 7.5rem;
+        border-radius: 50%;
+    }
+    .myname {
+        font-size: 1.5rem;
+        font-family: 'poppins' , 'Trebuchet MS',
+                'Lucida Sans Unicode',
+                 'Lucida Grande', 
+                 'Lucida Sans', Arial,
+                  sans-serif;
+        color: white;
+        margin-bottom: .3rem;
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 75%;
+        margin: .2rem 0rem;
+    }
+        .contact li{
+            list-style: none;
+            transition:all .5s ease-in;
+        }
+        .contact li:hover {
+            transform: translateY(-.2rem) scale(1.2);
+        }
+        .contact li img{
+            height: 1.3rem;
+            width: 1.3rem;
+            border-radius: 5px;
+        }
+.myline{
+    height: .1rem;
+    width: 100%;
+    margin: .1rem 0rem;
+    background: rgba(255, 255, 255, .0);
+}
+    .liny{
+        height: .1rem;
+        width: 80%;
+        background: rgba(255, 255, 255, .5);
+    }
+.navigations{
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex: auto;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: .3rem;
+    overflow-y: scroll;
+}
+    .navigations li{
+        width: 90%;
+        list-style: none;
+        margin-top: .3rem;
+        padding: .5rem;
+        border-radius: .5rem;
+        transition: background .5s ease-in;
+    }
+    .navigations li:hover{
+        background: rgba(255, 255, 255, .5);
+    }
+    .navigations li a{
+        color: aliceblue;
+        text-decoration: none;
+        width: 100%;
+        display: flex;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+        .navigations li a img{
+            margin-right: .5rem;
+            height: 1.3rem;
+            width: 1.3rem;
+            border-radius: 50%;
+        }
+    .settingser button{
+        background-color: rgba(255, 0, 0, 0);
+        border: none;
+        padding: 0rem 0rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .settingser button span:nth-child(1){
+        color: white;
+        font-size: 1rem;
+    }
+
+    .settingser button span:nth-child(2){
+        font-size: 1rem;
+        font-weight: 900;
+        color: white;
+    }
+    .settingser{
+        width: 100%;
+    }
+    .setting{
+        display: none;
+        padding-left: 1rem;
+        flex-direction: column;
+    }
+        .setting li{
+            padding: .3rem .7rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: auto;
+        }
+            .setting li a{
+                width: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            }
+
+.userlogbtn{
+    padding: 1rem .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    .userbtn{
+        transition: transform .4s ease-in-out;
+        padding: .5rem;
+        border-radius: 1rem;
+        border: none;
+        background:linear-gradient(45deg , rgba(255, 0, 242, 1.000) 20%,rgba(20, 30, 195, 1.000));
+    }
+    .userbtn:hover{
+        transform: translateY(-.15rem) scale(1.1);
+    }

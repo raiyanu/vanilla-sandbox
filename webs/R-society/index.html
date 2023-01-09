@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R-Society | Home </title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+    <div class="maincontainer centerthis">
+        <div class="container">
+            <div class="musicdot" id="musicdot" onclick="show_player()">
+            </div>
+            <div class="player" id="player">
+                <input type="button" value="music hide button" onclick="show_player()">
+            </div>
+            <div class="menu" id="menu">
+                <div class="profile centerthis">
+                    <span class="designer">Designed by</span>
+                    <div class="imgc centerthis">
+                        <img src="img/mypic.jpg" alt="my pic">
+                    </div>
+                    <h1 class="myname"> Raiyan Ahmed </h1>
+                    <ul class="contact">
+                        <li><a href="#"><img src="img/place.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/place.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/place.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/place.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/place.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="myline centerthis">
+                    <div class="liny"></div>
+                </div>
+                <ul class="navigations centerthis">
+                    <li>
+                        <a href="#">
+                            <img src="img/place.png" alt="err">
+                            <p>home</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/place.png" alt="err">
+                            <p>Main site</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/place.png" alt="err">
+                            <div class="settingser"><button onclick="show_extra(0)"><span>Settings</span> <span>></span></button></div>
+                            
+                        </a>
+                    </li>
+                    <ul class="setting" id="setting">
+                        <li><a href="#">get help</a></li>
+                        <li><a href="#">get help</a></li>
+                        <li><a href="#">get help</a></li>
+                        <li><a href="#">get help</a></li>
+                        <li><a href="#">get help</a></li>
+                    </ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/place.png" alt="err">
+                            <p>Source</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" >
+                            <img src="img/place.png" alt="err">
+                            <p>Contact</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="userlogbtn">
+                    <input class="userbtn" type="button" value="Log in">
+                    <input class="userbtn" type="button" value="Sign up">
+                </div>
+            </div>
+            <div class="main centerthis" id="main" id="fuller" >
+                <div class="navbar">
+                    <button class="menubtn centerthis" onclick="show_extra(1)">
+                        <svg id="ham" width="81" height="44" viewBox="0 0 81 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.5 6H74.5" stroke="white" stroke-width="11" stroke-linecap="round"/>
+                        <path d="M6 22H75" stroke="white" stroke-width="11" stroke-linecap="round"/>
+                        <path d="M6 38H75" stroke="white" stroke-width="11" stroke-linecap="round"/>
+                        </svg>
+
+                        <svg id="closer" width="58" height="46" viewBox="0 0 58 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 40L52 6" stroke="white" stroke-width="11" stroke-linecap="round"/>
+                            <path d="M6 6L52 40" stroke="white" stroke-width="11" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <div class="logo centerthis" > <div class="logoimg"></div><h1 class="logoname">R-Society</h1></div>
+                    <div class="actiontoggles"><svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.622087 12.49C1.08709 18.4983 6.73167 23.3867 13.4871 23.655C18.2533 23.8417 22.5158 21.835 25.0733 18.6733C26.1325 17.3783 25.5642 16.515 23.7946 16.8067C22.9292 16.9467 22.0379 17.005 21.1079 16.97C14.7917 16.7367 9.625 11.965 9.59917 6.33002C9.58625 4.81335 9.935 3.37835 10.5679 2.07168C11.2654 0.625016 10.4258 -0.0633175 8.81125 0.555016C3.69625 2.50335 0.195837 7.15835 0.622087 12.49Z" fill="url(#paint0_linear_26_24)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_26_24" x1="-7" y1="27.5" x2="18" y2="8.5" gradientUnits="userSpaceOnUse">
+                        <stop offset="0.130208" stop-color="#FA09FF"/>
+                        <stop offset="1" stop-color="#1906F2"/>
+                        </linearGradient>
+                        </defs>
+                        </svg></div>
+                </div>
+                <div class="content"></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../r-blog02"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "R-society"
+	}
+}
