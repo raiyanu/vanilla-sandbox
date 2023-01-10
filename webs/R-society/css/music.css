@@ -5,8 +5,18 @@
     width: 3.8rem;
     bottom: 3rem;
     right: 3.5rem;
-    background: linear-gradient(45deg,rgb(60, 10, 241), rgb(153, 18, 130) );
     cursor: pointer;
+    background: linear-gradient(0deg,rgb(60, 10, 241), rgb(153, 18, 130) );
+    animation: rotatery 5s linear 2s infinite alternate;
+}
+.musicdot .musicdotwrapper svg{
+    height: .8rem;
+    width: .8rem;
+}
+.musicdotwrapper{
+    padding: .3rem;
+    border: 1px solid white;
+    border-radius: 50%;
 }
 .player{
     transform: translateY(-5rem);
@@ -20,6 +30,7 @@
     background: rgba(6, 176, 255, 0.575);
     transition: all 5s ease-in-out;
     display: none;
+    /* blah */
 }
 .musciplayer-active{
     transform: translateY(0rem);
@@ -47,6 +58,7 @@
 .songdetail{
     width: inherit;
     flex-direction: column;
+    color: aliceblue;
 }
     .songdetail h1{
         font-size: 1.5rem;
@@ -85,3 +97,77 @@
         width: 1.5rem;
         cursor: pointer;
     }
+
+.listcontainer{
+    height: inherit;
+    width: 100%;
+    background: rgba(0, 3, 5, 0.603);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    border-radius: 1rem;
+    padding: .5rem .5rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+    .songlists{
+        flex: auto;
+        width: 100%;
+        border-radius: .2rem;
+        overflow-y: scroll;
+        height: 100%;
+    }
+    .songlists li{
+        width: 100%;
+        border-radius: .3rem;
+        margin: .2rem 0rem;
+    }
+    .songlists li:hover{
+        background: rgba(255, 255, 255, 0.603);
+    }
+    .songlists li a{
+        padding: 0rem .5rem;
+        text-decoration: none;
+        color: aliceblue;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        height: inherit;
+    }
+    .listsongdetail{
+        flex: auto;
+        margin-left: .5rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .listsongdetail h3{
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .listsongdetail span{
+        font-size: .7rem;
+    }
+    .listsongicon{
+        height: 1.8rem;
+        width: 2rem;
+        border-radius: 5px;
+    }
+    .listsonglength{
+        width: 1rem;
+        font-size: .6rem;
+    }
+.listpanel{
+    margin-top: .5rem;
+    width: 100%;
+    flex: auto;
+    display: flex;
+    align-items: flex-start;
+}
+.listpanel svg{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: .7rem;
+    cursor: pointer;
+}

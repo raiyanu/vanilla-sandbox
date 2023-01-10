@@ -12,6 +12,7 @@
     .menubtn{
         border: none;
         background: rgba(0, 0, 0, 0);
+        cursor: pointer;
     }
         .menubtn svg{
             background: rgba(0, 0, 0, 0);
@@ -36,6 +37,10 @@
         }
     .actiontoggles{
         height: 2rem;
-        width: 2rem;
+        width: 8rem;
+        grid-gap: 1rem;
         margin-left: 1rem;
+    }
+    .actiontoggles svg path{
+        stroke: rgba(255, 255, 255, 0.349);
     }

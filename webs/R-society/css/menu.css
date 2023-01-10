@@ -13,7 +13,7 @@
     width: 100%;
     padding: .5rem ;
     flex-direction: column;
-}   
+}
     .designer{
         font-size: .6rem;
         padding-left: 1rem;
@@ -41,7 +41,7 @@
                  'Lucida Sans', Arial,
                   sans-serif;
         color: white;
-        margin-bottom: .3rem;
+        margin: .3rem 0rem;
     }
     .contact{
         display: flex;
@@ -128,6 +128,7 @@
     }
     .settingser{
         width: 100%;
+        cursor: pointer;
     }
     .setting{
         display: none;
@@ -154,6 +155,7 @@
     justify-content: space-evenly;
 }
     .userbtn{
+        cursor: pointer;
         transition: transform .4s ease-in-out;
         padding: .5rem;
         border-radius: 1rem;

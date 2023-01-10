@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 *::selection{
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
 }
 .centerthis{

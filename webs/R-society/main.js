@@ -1,10 +1,14 @@
 var menu = document.getElementById("menu");
-menu.style.display = "flex";
+menu.style.display = "none";
 
 var ham = document.getElementById("ham");
 var closer = document.getElementById("closer");
-ham.style.display = "none";
+ham.style.display = "block";
+closer.style.display = "none";
 
+
+var listcontainer = document.getElementById("listcontainer");
+listcontainer.style.display ="none";
 function show_player() {
       var player = document.getElementById("player");
       player.classList.toggle("musciplayer-active");
@@ -41,4 +45,14 @@ function show_extra(selection){
       ham.style.display = "none";
     }
   }
+  if(selection===2){
+    console.log("clicked");
+    if( listcontainer.style.display === "flex"){
+      listcontainer.style.display ="none";
+    } 
+    else {
+      listcontainer.style.display ="flex";
+    }
+  }
 }
+
