@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*::selection{
+    background: black;
+    color: white;
+}
+.main-container{
+    height: auto;
+    width: 100%;
+}
+.page1{
+    display: flex;
+    /* hidden */
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url('../img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    display: flex;
+    backdrop-filter: blur(3px);
+    border-bottom: .001rem solid rgba(255, 255, 255, 0.041);
+}
+.menubtn svg{
+    height: 1.3rem;
+    width: 1.3rem;
+    opacity: .5;
+}
+.fc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content{
+    height: inherit;
+    display: flex;
+}
+.side-bar{
+    backdrop-filter: blur(2px);
+    height: 100%;
+    padding: .5rem;
+    border-right: .001rem solid rgba(255, 255, 255, 0.014);
+}
+.content{
+    height: 100%;
+    width: 100%;
+ 
+}
+.welcome h1{
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.hello h1:nth-child(1){
+    color: aqua;
+}
+.hello h1:nth-child(2){
+    z-index: 5;
+    position: absolute;
+    transform: translateY(-100%);
+}
+.cube{
+    height: 20rem;
+    width: 20rem;
+    backdrop-filter: blur(1px);
+    position: absolute;
+    z-index: 1;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    background:url("../img/bg.jpg");
+    background-size: cover;
+    border-radius: 1rem;
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+}
+.line:nth-child(1){
+    background: rgb(255, 255, 255);
+    border-top-left-radius: 50%;
+    width: 2rem;
+    height: .2rem;
+    border-bottom-left-radius: 50%;
+}
+.line:nth-child(3){
+    width: 2rem;
+    height: .2rem;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: rgb(255, 255, 255);
+}
+.downcontext h4{
+    color: white;
+}

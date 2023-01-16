@@ -1,0 +1,46 @@
+.page2{
+    padding: 1rem;
+    flex-direction: column-reverse;
+}
+.imager{
+    flex:0 0 auto;
+    height: 12rem;
+    width: 50vw;
+}
+.img1{
+    height: 15rem;
+    width: 12rem;
+    float: right;
+}
+.limg{
+    height: 8rem;
+    position: absolute;
+    width: 6rem;
+    transform: translate(-40%,60%);
+}
+.data{
+    margin-top: 5rem;
+}
+.page3{
+    display: flex;
+    padding: 1rem 5rem;
+    height: 50vh;
+    width: 100%;
+    flex-direction: column;
+    background:rgb(188, 219, 243);
+}
+.page3 p{
+    text-align: center;
+}
+.page3 button{
+    border: none;
+    padding: .5rem 1rem;
+    margin: 2rem;
+    transition: .3s;
+    background: blue;
+    color: white;
+    border-radius: .5rem;
+}
+.btn:hover button{
+    transform: translateY(260%);
+}
