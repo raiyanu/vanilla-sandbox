@@ -1,0 +1,57 @@
+@media screen and (max-width: 700px) {
+	.menu{
+		display:none;
+	}
+	.hamburger{
+		display: block;
+	}
+	.hamburger img {
+		height:1rem;
+		margin-right:1rem;
+	}
+	.mainsection h1{
+		font-size:1rem;
+		text-shadow:1px 2px 6px black;
+	}
+	.ability ul{
+		margin-left: 0rem
+	}
+	.ability ul li{
+		font-size: 1rem;
+	}
+	.ability h2 {
+		font-size: 1rem;
+		text-overflow: 
+	}
+	.ability h2 span{
+		line-height: 1rem
+	}
+	.pic p{
+    	width: 80%;
+    	text-align: justify;
+	}
+	footer{
+		flex-direction: column;
+	}
+	.product h1 , .contact h1{
+		font-size: 1rem;
+	}
+	.product td , .contact td{
+		font-size: .8rem
+	}
+	.ability ul{
+    	margin-left: 1rem;
+	}
+	.ability h2{
+		margin-bottom: 1rem;
+		width: 100%;
+		line-height: 1rem;
+	}
+	.ability {
+		padding: 2rem .5rem;
+	}
+	.ability span{
+		line-height: .1rem;
+		font-size: 2rem;
+	}
+}
