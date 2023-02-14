@@ -48,7 +48,6 @@ body{
     border-radius: 50%;
 }
 .mycard > div:nth-child(1){
-    background-color: red;
     margin-bottom: .5rem;
 }
 .brand h1{
