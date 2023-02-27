@@ -58,6 +58,7 @@ body{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkite-background-clip:text;
+     text-fill-color: transparent;
 }
 .brand {
 	margin-right:1rem;
