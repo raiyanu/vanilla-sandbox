@@ -9,7 +9,7 @@
     color: white;
 }
 body{
-    background: url("img/blurback.jpg");
+    background: url("../img/blurback.jpg");
     backdrop-filter:blur(1rem);
     background-size: cover;
     background-position: center;
