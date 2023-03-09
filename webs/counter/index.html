@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1 id="counter" class="counter">0</h1>
+        <div> <button type="button" onclick="counter(1)"> Decrease </button>
+            <button type="button" onclick="counter(2)"> Reset </button>
+            <button type="button" onclick="counter(3)"> Increase </button></div>
+    </div>
+    <script>
+        let count = 0;
+        let mycount = document.getElementById('counter');
+        function counter(num){
+            if (num==1) {
+                count -=1;
+                mycount.innerHTML = count;
+            }
+             else if (num==2) {
+                count =0;
+                mycount.innerHTML = count;
+            }
+            else if (num==3) {
+                count +=1;
+                mycount.innerHTML = count;
+            }
+            else {
+                window.alert("oye oye you are interfering with my program architectures");
+            }
+        }
+    </script>
+</body>
+</html>
