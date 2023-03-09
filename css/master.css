@@ -55,10 +55,8 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
     letter-spacing: .2rem;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkite-background-clip:text;
-     text-fill-color: transparent;
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .brand {
 	margin-right:1rem;
