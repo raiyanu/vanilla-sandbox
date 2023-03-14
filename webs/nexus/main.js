@@ -1,6 +1,6 @@
 let open = 0;
 var article = document.getElementsByTagName('article');
-article[0].classList.add('active');
+article[open].classList.add('active');
 function change(i) {
     if (i == 1) {
         // change to previous item
@@ -14,7 +14,7 @@ function change(i) {
     }
     else if (i == 2) {
         // change to previous item
-        if (!(open >= article.length)) {
+        if (!(open >= article.length-1)) {
             for (let index = 0; index < article.length; index++) {
                 article[index].classList.remove('active');
             }

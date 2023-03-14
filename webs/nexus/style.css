@@ -17,7 +17,7 @@ menu{
     display: flex;
     align-items: center;
     padding: .3rem 1rem;
-    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
 }
 .logo{
     width: 40%;
@@ -56,11 +56,11 @@ article{
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 3fr 1fr;
     height: 90vh;
-    border: 1px solid white;
     transition: all 1s ease-in-out;
 }
 .pic{
     overflow: hidden;
+    padding: 1rem;
 }
 .picy{
     height: 100%;
@@ -98,6 +98,7 @@ article{
 .context h1{
     letter-spacing: .3rem;
     font-size: 4rem;
+    display: inline;
 }
 .texties{
     display: flex;
