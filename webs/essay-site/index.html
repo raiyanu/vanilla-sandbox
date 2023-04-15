@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .accordion {
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      background-color: #f9f9f9;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .accordion:hover {
+      background-color: #19376D;
+    }
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+    }
+html{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+body{
+    max-width:1100px;
+}
+<style>
+/* Accordion container */
+.accordion-container {
+  background-color: #F0F0F0; /* Background color of accordion container */
+  padding: 20px; /* Padding around accordion container */
+}
+
+/* Accordion button */
+.accordion {
+text-align:center;
+  background-color: #3C486B; /* Background color of accordion button */
+  color: #FFF; /* Text color of accordion button */
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Accordion panel */
+.panel {
+  background-color: #917FB3; /* Background color of accordion panel */
+  padding: 16px;
+  display: none;
+  overflow: hidden;
+}
+
+/* Styling for active accordion button */
+.active {
+  background-color: #E5BEEC; /* Background color of active accordion button */
+}
+
+/* Styling for panel when active */
+.panel.active {
+  display: block;
+}
+body{
+    background: #2A2F4F;
+color:white
+}
+</style>
+
+  </style>
+</head>
+<body class="accordion-container">
+
+<h1>Education: <span><h4>The Most Powerful Weapon to Change the World</h2> </span> </h1>
+
+<button class="accordion">Peace</button>
+<div class="panel">
+  <p>Education fosters understanding, tolerance, and respect for diversity, promoting peaceful communication and relationships.</p>
+</div>
+
+<button class="accordion">Potential</button>
+<div class="panel">
+  <p>Education unlocks individual potential by nurturing curiosity, creativity, and innovation, allowing individuals to explore their passions and talents.</p>
+</div>
+
+<button class="accordion">Progress</button>
+<div class="panel">
+  <p>Education contributes to advancements in various fields, providing knowledge and expertise for societal development.</p>
+</div>
+
+<button class="accordion">Opportunity</button>
+<div class="panel">
+  <p>Education opens doors to new opportunities, breaking the cycle of poverty and promoting upward mobility.</p>
+</div>
+
+<button class="accordion">Empathy</button>
+<div class="panel">
+  <p>Education promotes understanding and acceptance of diverse perspectives and cultures, fostering inclusivity and respect.</p>
+</div>
+
+<button class="accordion">Sustainability</button>
+<div class="panel">
+  <p>Education raises awareness about global issues like climate change and encourages responsible environmental practices.</p>
+</div>
+
+<button class="accordion">Leadership</button>
+<div class="panel">
+  <p>Education develops leadership skills, fostering critical thinking and decision-making abilities for positive contributions to society.</p>
+</div>
+
+<button class="accordion">Social Justice</button>
+<div class="panel">
+  <p>Education promotes awareness and action towards social justice issues, fostering a more equitable and just society.</p>
+</div>
+
+<button class="accordion">Health and Well-being</button>
+<div class="panel">
+  <p>Education promotes health literacy, providing knowledge and skills for maintaining physical, mental, and emotional well-being.</p>
+</div>
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
+
