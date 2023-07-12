@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    resize: none;
+}
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Security-text{
+    color: black;
+}
+.brand-logo{
+    margin-left: .4rem;
+    font-size: larger;
+    line-height: 2rem;
+}
+sup{
+    font-size: 1rem;
+    vertical-align: bottom;
+    margin-left: .2rem;
+}
+.b1{
+    height: 78vh;
+    width: 74vw;
+    display: flex;
+    padding: 5px;
+    padding-left: 1rem;
+    flex-direction: column;
+}
+.b1 textarea{
+    flex: 1;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    border-style: none;
+    outline: none;
+    background-color: rgb(240, 240, 240);
+    padding: 1rem;
+}
+.b1 span{
+    font-size: 1.4rem;
+    color: white;
+}
+.b2{
+    padding: .5rem;
+    width: 24vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.centerbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}

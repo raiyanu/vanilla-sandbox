@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Other Firebase SDKs if required -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css">
+    </link>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/abbott.min.css">
+    </link>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>INSTANT notes</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo" style="display: flex; height: 100%; align-items: center;"><span>Instant
+                    Note<sup>app</sup></span></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="get.html">Get</a></li>
+                <li><a href="upload.html">Upload</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="b">
+        <div class="b1 input-field">
+            <textarea name="note" id="note"></textarea>
+        </div>
+        <div class="b2">
+            <div class="sect1">
+                <div class="col item">
+                    <div class="input-field col s6">
+                        <input id="first_name2" type="text" class="validate">
+                        <label class="active" for="first_name2">First Name (optional)</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Telephone (optional)</label>
+                    </div>
+                    <p>
+                        <label>
+                            <input type="checkbox" />
+                            <span id="Security-text">Security</span>
+                        </label>
+                    </p>
+                    <div class="input-field col s6">
+                        <input id="password" type="tel" class="validate">
+                        <label for="password">Telephone (optional)</label>
+                    </div>
+                </div>
+            </div>
+            <div class="sect2">
+                <p>Do you agree with the our <a href="#">terms</a> & <a href="#">conditions</a></p>
+                <p>
+                    <label>
+                        <input type="checkbox" />
+                        <span>I've read & agree</span>
+                    </label>
+                </p>
+                <br>
+                <div class="centerbutton">
+                    <a class="waves-effect waves-light btn-large"><i
+                            class="material-icons left">file_upload</i>Upload</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="firebase-config.js"></script>
+</body>
+<!-- 
+
+ID: A unique identifier for each paste entry. This can be an automatically generated key or a custom ID, as discussed earlier.
+
+Title: An optional title for the paste, which can help users provide a brief description of the content.
+
+Content: The actual content of the paste, such as code, text, or any other data.
+
+Syntax: The programming language or syntax highlighting information associated with the paste. This can be useful for displaying the content with appropriate syntax highlighting.
+
+Expiration: An expiration date or duration indicating how long the paste should be available. This can be a specific date/time or a duration like "1 day," "1 week," etc.
+
+Visibility: A flag or property to determine the visibility of the paste. For example, you might have public pastes that are visible to everyone, or private pastes that require a specific access mechanism.
+
+Timestamp: The timestamp indicating when the paste was created. This can be useful for sorting and displaying pastes in chronological order.
+
+ -->
+
+</html>
