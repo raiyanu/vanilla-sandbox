@@ -1,0 +1,137 @@
+/* Media query for smaller screens */
+@media (max-width: 750px) {
+    .second-nav-item {
+        background-color: rgb(113, 194, 255);
+        margin: 0 auto;
+        padding: 0 1rem;
+        overflow-x: scroll;
+        padding-bottom: .7rem;
+    }
+
+    .second-nav {
+        display: contents;
+        padding: .3rem;
+        background-color: aqua;
+        width: 97%;
+    }
+
+    .first-nav {
+        display: none;
+    }
+
+    .poem p {
+        font-size: 1rem;
+    }
+
+    .poem span {
+        font-size: 1.1rem;
+    }
+
+    .poem {
+        padding: 1rem;
+    }
+
+    .poem span {
+        width: 75%;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-areas:
+            'brand brand brand brand brand brand'
+            'off off off kw kw kw'
+            'su su su su su su';
+        row-gap: 1rem;
+        column-gap: 1rem;
+    }
+    .credit {
+        padding: 1rem 2rem;
+    }
+    .credit p{
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .navbar-item h1 {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .brand {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .icon {
+        height: 70px;
+        width: 70px;
+    }
+
+    .poem p {
+        font-size: .7rem;
+    }
+
+    .poem {
+        padding: .3rem;
+    }
+
+    .poem span {
+        font-size: .7rem;
+    }
+
+    .poem span {
+        width: 90%;
+        font-size: .8rem;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-areas: "box .";
+        row-gap: auto;
+        column-gap: auto;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-areas:
+            'brand'
+            'off'
+            'kw'
+            'su';
+        row-gap: 1rem;
+        column-gap: 1rem;
+    }
+    .morelink{
+        align-items: center;
+        justify-content: center;
+    }
+    .credit{
+        padding: .5rem 1rem;
+    }
+    .credit p{
+        font-size: .5rem;
+    }
+}
+@media (max-width: 290px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
+/* for slide */
+@media (max-width: 750px) {
+    .slide-container{
+        /* @todo */
+    }
+}
+@media (max-width: 400px) {
+    
+}
+@media (max-width: 300px) {
+    
+}

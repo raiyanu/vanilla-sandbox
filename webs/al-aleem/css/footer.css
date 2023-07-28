@@ -1,0 +1,101 @@
+footer {
+    background-color: rgb(252, 194, 215);
+    padding: 1rem 2rem;
+    width: 97%;
+}
+
+.footer-container {
+    align-items: flex-start;
+}
+
+.footerlicon {
+    width: 7rem;
+    padding: .2rem;
+}
+
+.footerlicon .licon {
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 2px solid white;
+}
+
+.morelink {
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.morelink h3 {
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.morelink ul {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.morelink h3 {
+    margin-bottom: 1rem;
+}
+
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    background: rgb(218, 204, 204);
+}
+
+.brand-end {
+    background: aqua;
+}
+
+.brand-end h1 {
+    margin-bottom: .5rem;
+}
+
+.brand-end span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+}
+
+.brand-end .lin1 {
+    transform-origin: center;
+    transform: rotate(1deg);
+}
+
+.credit {
+    display: flex;
+    padding: 1rem 3rem;
+    justify-content: center;
+    border-top: 2px solid white;
+    background-color: rgb(252, 194, 215);
+    width: 97%;
+}
+.sign-up {
+    width: auto;
+}
+
+.brand-end {
+    grid-area: brand;
+}
+
+.official {
+    grid-area: off;
+}
+
+.knowmore {
+    grid-area: kw;
+}
+
+.sign-up {
+    grid-area: su;
+    flex-direction: column;
+    align-items: flex-start;
+}

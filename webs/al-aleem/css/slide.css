@@ -1,0 +1,28 @@
+.slide{
+    width: 97%;
+}
+.slide-container{
+    background: url(../img/j226.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 1rem;
+}
+.slide-heading{
+    font-size:5rem;
+}
+.description{
+    font-size: 2rem;
+    border: 2px solid white;
+}
+.description-1, .description-2{
+    line-height: 2.4rem;
+}
+.description-1{
+    background-color: white;
+}

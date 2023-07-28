@@ -1,0 +1,23 @@
+.poem {
+    background-color: aqua;
+    padding: 1rem 2rem;
+    flex-direction:column;
+    width: 97%;
+}
+.poem h3{
+    text-align: center;
+    font-size: 1cm;
+}
+.poem p{
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+}
+.poem span{
+    background-color: rgba(255, 0, 0, 0.397);
+    display: block;
+    text-align: right;
+    width: 60%;
+    font-size: 1.5rem;
+}
