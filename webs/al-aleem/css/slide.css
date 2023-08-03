@@ -1,5 +1,6 @@
 .slide{
     width: 97%;
+    scroll-snap-align: start;
 }
 .slide-container{
     background: url(../img/j226.jpg);

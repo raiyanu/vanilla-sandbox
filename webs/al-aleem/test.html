@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Hide vertical scrollbar */
+}
+
+.scroll-container {
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scroll-snap-type: y mandatory; /* Snap vertically */
+  height: 80vh; /* Set a fixed height for the scroll container */
+}
+
+p {
+  padding: 20px;
+  margin: 0;
+  font-size: 1.2rem;
+  scroll-snap-align: start; /* Snap points align to the start of each content */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+    </style>
+</head>
+<body>
+  <div class="scroll-container">
+    <p>Content 1</p>
+    <p>Content 2</p>
+    <p>Content 3</p>
+    <p>Content 4</p>
+    <p>Content 5</p>
+  </div>
+</body>
+</html>

@@ -1,12 +1,15 @@
 .poem {
-    background-color: aqua;
-    padding: 1rem 2rem;
-    flex-direction:column;
-    width: 97%;
+  position: relative;
+  background-color: aqua;
+  padding: 1rem 2rem;
+  flex-direction:column;
+  width: 97%;
+  overflow: hidden;
 }
 .poem h3{
     text-align: center;
     font-size: 1cm;
+  z-index: 2;
 }
 .poem p{
     font-size: 1.5rem;
@@ -21,3 +24,29 @@
     width: 60%;
     font-size: 1.5rem;
 }
+/* background animation*/
+.bg-anime{
+  display: flex;
+  position:relative; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.bg-anime li{
+  position: relative;
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  animation: animate 15s linear infinite;
+}
+@keyframes animate{
+0%{
+  transform: translateY(0px);
+  opacity: 1;
+}
+100%{
+  opacity: 0;
+  transform: translateY(-300px);
+}
+}
+

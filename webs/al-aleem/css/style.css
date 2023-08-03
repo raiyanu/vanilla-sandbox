@@ -9,6 +9,8 @@
     transition: all .7s;
 }
 body{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
     max-width: 1300px;
     margin: auto;
     border: 2px solid white;
