@@ -1,5 +1,5 @@
 .slide{
-    width: 97%;
+    width: 100%;
     scroll-snap-align: start;
 }
 .slide-container{

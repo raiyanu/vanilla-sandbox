@@ -11,17 +11,16 @@
 body{
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
-    max-width: 1300px;
-    margin: auto;
-    border: 2px solid white;
+    max-width: 1500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: .5rem;
 }
 /* navbar*/
 .navbar{
-    width: 97%;
+    width: 100%;
 }
 .navbar-item h1 {
     font-size: 2.5rem;
@@ -41,7 +40,7 @@ body{
 }
 
 .navbar .container {
-    background-color: rgb(113, 194, 255);
+    background-color: rgb(019,023,024);
     padding: .3rem 1rem;
     display: flex;
     align-items: center;
@@ -71,7 +70,7 @@ body{
     display: none;
 }
 .second-nav-item{
-    width: 97%;
+    width:100%;
 }
 .navbar-item ul a li{
     padding: .25rem;

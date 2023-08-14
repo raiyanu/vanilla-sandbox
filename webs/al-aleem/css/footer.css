@@ -1,7 +1,7 @@
 footer {
     background-color: rgb(252, 194, 215);
     padding: 1rem 2rem;
-    width: 97%;
+    width: 100%;
 }
 
 .footer-container {
@@ -76,7 +76,7 @@ footer {
     justify-content: center;
     border-top: 2px solid white;
     background-color: rgb(252, 194, 215);
-    width: 97%;
+    width: 100%;
 }
 .sign-up {
     width: auto;

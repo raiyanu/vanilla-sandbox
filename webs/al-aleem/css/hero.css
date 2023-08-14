@@ -1,0 +1,51 @@
+.hero{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.hero-container{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: url('../img/reshot-illustration-students-meeting-8JRACZ4GTD\ 1.svg'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* padding: 150px 50px; */
+    aspect-ratio: 16/9;
+}
+.hero-text{
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+}
+/* button */
+.hero-text a{
+    padding: .4rem .7rem;
+    background-color: rgb(243, 70, 70);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.ill {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.ill img{
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 16/9;
+
+}
