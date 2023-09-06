@@ -5,34 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oops! Page Not Found</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            height: 100vh;
+            height: 100vh;
         }
-
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         .error-container {
             max-width: 400px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            border-radius: 1rem;
         }
 
         h1 {
-            font-size: 48px;
-            color: #f00;
+            font-size: 32px;
+            color: rgb(242, 126, 126);
+            font-weight: 900;
         }
 
         p {
-            font-size: 18px;
-            color: #333;
+            font-size: 15px;
+            color: rgb(147, 147, 147);
+            padding-top: .4rem;
         }
 
         img {
-            width: 100px;
-            height: 100px;
+            width: 300px;
+            height: 300px;
         }
 
         a {
@@ -41,9 +52,9 @@
         }
     </style>
 </head>
-<body>
+<body class="center">
     <div class="error-container">
-        <img src="https://example.com/error-icon.png" alt="Error Icon">
+        <img height="300px" width="300px" src="error.svg" alt="404">
         <h1>Oops! Page Not Found</h1>
         <p>It looks like you've entered an incorrect URL.</p>
         <p>You might want to check if there's a typo in the address.</p>
