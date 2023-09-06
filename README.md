@@ -2,10 +2,10 @@
 
 Welcome to my GitHub Pages repository, where I showcase my learning projects. This repository serves as a collection of various web applications, websites, and experiments that I've created while learning different technologies.
 
-<center><div style="display: flex; justify-content: center;align-items: center;">
-    <img src="programming.svg" alt="Image Alt Text" width="300" height="300">
-</div>
-</center>
+<p align="center">
+  <img src="programming.svg" alt="Image Alt Text">
+</p>
+
 
 
 
