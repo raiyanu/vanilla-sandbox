@@ -55,7 +55,9 @@ h1{
 .main:hover .content-hover{
     color: white;
 }
-
+.content-hover:hover{
+    color: white;
+}
 /* credit */
 .credit{
     width: 80%;
