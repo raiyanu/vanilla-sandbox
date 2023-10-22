@@ -46,17 +46,23 @@ body{
     padding: 1rem;
 }
 .form-input h1{
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 2rem;
 }
 .form-input h1, .form-input p{
     text-align: center;
+}
+.form-input p {
+    font-size: .9rem;
+    font-weight: 500;
 }
 .my-input{
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    margin: 10px 20px;
+    margin: 5px 20px;
+    margin-bottom: 10px;
 }
 .my-input label{
     transition: .2s ease;
@@ -80,7 +86,7 @@ body{
 }
 .my-input input:focus ~ label,
 .my-input input:valid ~ label {
-    transform: translateY(-120%);
+    transform: translateY(-110%);
     color: rgb(21, 235, 250);
     font-size: .75rem;
 }
