@@ -5,5 +5,5 @@ function login() {
     Password = password.value;
     username.value = "";
     password.value = "";
-    alert(`hey mr/ms. ${User}, shhh your password is:${Password}`);
+    if(!(User==''|| Password==''))alert(`hey mr/ms. ${User}, shhh your password is:${Password}`);
 }
