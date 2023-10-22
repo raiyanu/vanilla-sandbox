@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+img {
+    height: 400px;
+}
+body{
+    background-color: rgb(206, 206, 206);
+    height: 100vh;
+    height: 100dvh;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color: antiquewhite;
+    height: 70vh;
+    height: 70dvh;
+    width: 60%;
+    display: flex;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: 1s all;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card{
+    width: 40%;
+    height: inherit;
+}
+.card img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.form-input{
+    width: 60%;
+    padding: 1rem;
+}
+.form-input h1{
+    margin-top: 20px;
+}
+.form-input h1, .form-input p{
+    text-align: center;
+}
+.my-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 10px 20px;
+}
+.my-input label{
+    transition: .2s ease;
+    position: absolute;
+    top:50%;
+    left: 1rem;
+    color: rgba(0, 0, 0, 0.377);
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.my-input input{
+    height: 2.5rem;
+    border-radius: 1rem;
+    width: 100%;
+    outline: none;
+    border: 1px solid  grey;
+    padding-left: 1rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: .2rem;
+}
+.my-input input:focus ~ label,
+.my-input input:valid ~ label {
+    transform: translateY(-120%);
+    color: rgb(21, 235, 250);
+    font-size: .75rem;
+}
+.my-input input:focus,
+.my-input input:valid{
+    border: 1px solid cyan;
+}
+.form-input button{
+    height: 2.5rem;
+    width: 90%;
+    display: inline;
+    margin: 10px 20px;
+    border-radius: 1rem;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.form-input button:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.extra-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin: 5px 0px;
+}
+.extra-option hr{
+    width: 50px;
+    height: 2px;
+}
+.extra-social-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 10px 5px;
+}
+.extra-social-option img{
+    height: 1.5rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.forgot{
+    text-align: center;
+    display: block;
+    margin: auto
+}
+@media (max-width:1000px) {
+    .form{
+        width: 80%;
+    }
+}
+@media (max-width:800px) {
+    .form{
+        width: 90%;
+    }
+}
+@media (max-width:700px) {
+    .form{
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+        border-radius: 0rem;
+    }
+    .card{
+        width: 100%;
+    }
+    .form-input{
+        border-radius: 1rem;
+        position: absolute;
+        background-color: white;
+        top: 12rem;
+        left: 50%;
+        right: 50%;
+        transform:translateX(-50%);
+        width: 90%;
+    }
+}
