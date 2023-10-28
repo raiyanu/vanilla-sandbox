@@ -52,6 +52,7 @@ body {
 .form-input {
     width: 60%;
     padding: 0rem 1rem;
+    padding-bottom: .5rem;
 }
 .welcome-line{
     height: 1px;
