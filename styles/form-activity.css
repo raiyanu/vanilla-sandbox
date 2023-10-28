@@ -1,0 +1,46 @@
+.form1,
+.form2 {
+    position: absolute;
+    height: 100%;
+    transition: .2s;
+    visibility: hidden;
+}
+
+.form-cover {
+    border-radius: .6rem;
+}
+
+.form1 {
+    transform: translateX(100%);
+}
+
+.form2 {
+    transform: translateX(-100%);
+}
+
+.be-visible {
+    transition: .5s;
+    visibility: visible;
+    transform: translateX(0%);
+}
+
+.sep-name {
+    display: flex;
+}
+
+.sep-name .my-input {
+    width: 50%;
+    margin: 0;
+}
+
+.form2 h2 {
+    margin: .1rem;
+}
+
+.agreement {
+    margin: 0px 35px;
+}
+
+.agreement label {
+    cursor: pointer;
+}
