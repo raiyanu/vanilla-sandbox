@@ -1,50 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log In</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/form-activity.css">
 </head>
+
 <body class="center">
     <div class="form .center">
         <div class="card">
             <img src="img/img1.jpg" alt="Img of leaves">
         </div>
-        <div class="form-input">
-            <h1 style="font-weight: 500;">Welcome back!</h1>
-            <hr class="welcome-line">
-            <p>We are happy to see you again</p>
-            <h2 >Login</h2>
-            <div class="myemail my-input">
-                <input type="text" id="name" required>
-                <label>username, email or phone</label>
+
+        <div class="form-cover">
+            <div class="form-input form1 be-visible" id="form1">
+                <h1 style="font-weight: 500;">Welcome back!</h1>
+                <hr class="welcome-line">
+                <p>We are happy to see you again</p>
+                <h2>Login</h2>
+                <div class="myemail my-input">
+                    <input type="text" id="name" required>
+                    <label>username, email or phone</label>
+                </div>
+                <div class="mypass my-input">
+                    <input type="password" id="password" required>
+                    <label>password</label>
+                </div>
+                <button type="button" onclick="login()">Log in</button>
+                <p class="mr-sign-up-para">Don't have account? <span class="dif-auth" onclick="switch_entry()">Sign
+                        up!</span></p>
+                <div class="extra-option">
+                    <hr>
+                    <p>or</p>
+                    <hr>
+                </div>
+                <div class="extra-social-option">
+                    <!-- these icons taken from https://www.iconfinder.com for free version -->
+                    <img src="img/google.svg" alt="">
+                    <img src="img/facebook.svg" alt="">
+                    <img src="img/twitter.svg" alt="">
+                </div>
+                <a href="#" class="forgot">forgot Login or password?</a>
             </div>
-            <div class="mypass my-input">
-                <input type="password" id="password" required>
-                <label>password</label>
+            <div class="form-input form2 " id="form2">
+                <h1 style="font-weight: 500;">Welcome to E-Shop</h1>
+                <h2>Sign-up</h2>
+                <div class="sep-name my-input">
+                    <div class="first-name my-input">
+                        <input type="text" id="name" required>
+                        <label>First name</label>
+                    </div>
+                    <div class="second-name my-input">
+                        <input type="text" id="name" required>
+                        <label>Second name</label>
+                    </div>
+                </div>
+                <div class="myemail my-input">
+                    <input type="text" id="name" required>
+                    <label>Email</label>
+                </div>
+                <div class="mypass my-input">
+                    <input type="password" id="password" required>
+                    <label>password</label>
+                </div>
+                <div class="mypass my-input">
+                    <input type="password" id="password" required>
+                    <label>Confirm password</label>
+                </div>
+                <div class="agreement">
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label for="agreement">I Agree with <a href="#">privacy</a> and <a href="#">policy </a></label>
+                </div>
+                <button type="button" onclick="login()">Sign up</button>
+                <p class="mr-sign-up-para">Already have account? <span class="dif-auth"
+                        style="display: inline; cursor: pointer;" onclick="switch_entry()">Login!</span></p>
+                <!-- <div class="extra-option">
+                    <hr>
+                    <p>or</p>
+                    <hr>
+                </div>
+                <div class="extra-social-option">
+                      // these icons taken from https://www.iconfinder.com for free version
+                    <img src="img/google.svg" alt="">
+                    <img src="img/facebook.svg" alt="">
+                    <img src="img/twitter.svg" alt="">
+                </div> -->
             </div>
-            <button type="button" onclick="login()">Log in</button>
-            <p class="mr-sign-up-para">Don't have account? <a href="#" class="forgot" style="display: inline;">Sign up!</a></p>
-            <div class="extra-option">
-                <hr>
-                <p>or Log in with</p>
-                <hr>
-            </div>
-            <div class="extra-social-option">
-                <!-- these icons taken from https://www.iconfinder.com for free version -->
-                <img src="img/google.svg" alt="">
-                <img src="img/facebook.svg" alt="">
-                <img src="img/twitter.svg" alt="">
-            </div>
-            <a href="#" class="forgot">forgot Login or password?</a>
         </div>
     </div>
     <script src="main.js">
-        const username = document.getElementById
     </script>
 </body>
+
 </html>

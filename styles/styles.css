@@ -39,7 +39,7 @@ body {
 }
 
 .card {
-    width: 40%;
+    width: 45%;
     height: 100%;
 }
 
@@ -49,16 +49,26 @@ body {
     width: 100%;
 }
 
+.form-cover {
+    width: 55%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
 .form-input {
-    width: 60%;
+    flex: 0 0 auto;
+    width: 100%;
     padding: 0rem 1rem;
     padding-bottom: .5rem;
 }
-.welcome-line{
+
+.welcome-line {
     height: 1px;
     margin: 0rem 5rem;
     color: rgba(128, 128, 128, 0.1);
 }
+
 .form-input h1 {
     margin-top: 15px;
     font-size: 2rem;
@@ -71,9 +81,11 @@ body {
     text-align: center;
     margin: 1rem 0rem 1rem 0rem;
 }
-.mr-sign-up-para{
+
+.mr-sign-up-para {
     margin: .5rem;
 }
+
 .form-input h1,
 .form-input p {
     text-align: center;
@@ -105,14 +117,18 @@ body {
 
 .my-input input {
     height: 2.5rem;
-    border-radius: 1rem;
     width: 100%;
     outline: none;
+    border-radius: .7rem;
     border: 1px solid grey;
+    /* border-radius: 0; */
+    /* border: none; */
+    /* border-bottom: 1px solid grey; */
     padding-left: 1rem;
     font-size: 1rem;
     padding-top: 1rem;
     padding-bottom: .2rem;
+    margin: 0 .5rem 0 .5rem;
 }
 
 .my-input input:focus~label,
@@ -124,7 +140,9 @@ body {
 
 .my-input input:focus,
 .my-input input:valid {
+    /* border-bottom: 1px solid cyan; */
     border: 1px solid cyan;
+
 }
 
 .form-input button {
@@ -177,10 +195,18 @@ body {
 .forgot {
     text-align: center;
     display: block;
-    margin: auto;
-    font-size: .7rem;
+    font-size: 1rem;
+    color: rgb(131 116 221);
+    cursor: pointer;
+    width: 100%;
 }
-
+.dif-auth{
+    display: inline;
+    font-size: 1rem;
+    color: rgb(131 116 221);
+    cursor: pointer;
+    width: 100%;
+}
 @media (max-width:1000px) {
     .form {
         width: 80%;
@@ -207,12 +233,17 @@ body {
 
     .form-input {
         border-radius: 1rem;
-        position: absolute;
         background-color: white;
-        top: 12rem;
-        left: 50%;
-        right: 50%;
-        transform: translateX(-50%);
-        width: 90%;
+        width: 100%;
     }
+
+    .form-cover {
+        position: absolute;
+        height: 450px;
+        width: 95%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: .5rem;
+    }
+
 }
