@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 img {
@@ -72,14 +72,15 @@ body {
 .form-input h1 {
     margin-top: 15px;
     font-size: 2rem;
+    margin-bottom: .2rem;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .form-input h2 {
     font-family: monospace;
-    font-weight: 600;
-    font-size: 1.6rem;
     text-align: center;
-    margin: 1rem 0rem 1rem 0rem;
+    margin: .7rem 0rem;
+    margin-bottom: 1rem;
 }
 
 .mr-sign-up-para {
