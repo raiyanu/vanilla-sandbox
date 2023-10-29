@@ -1,6 +1,0 @@
-[submodule "webs/webs/registration-form"]
-	path = webs/webs/registration-form
-	url = https://github.com/RaiyanAhmed-RK/registration-form.git
-[submodule "webs/registration-form"]
-	path = webs/registration-form
-	url = https://github.com/RaiyanAhmed-RK/registration-form.git
